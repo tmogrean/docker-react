@@ -19,5 +19,5 @@ deploy:
   bucket_path: "docker-react-togrean"
   on:
     branch: master
-  access_key_id: "aws-access-key"
-  secret_access_key: "aws-secret-key" 
+  access_key_id: "$AWS-ACCESS-KEY"
+  secret_access_key: "$AWS-SECRET-KEY" 
